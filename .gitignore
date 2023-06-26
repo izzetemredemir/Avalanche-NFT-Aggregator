@@ -1,0 +1,29 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# TypeScript compiled directory
+dist/
+
+# Typings
+typings/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE - VSCode
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Ignore log files
+*.log
+
+# Ignore package-lock.json as it creates package install conflicts
+package-lock.json
+
+# Ignore env files
+.env
