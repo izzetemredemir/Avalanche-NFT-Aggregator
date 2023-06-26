@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "allowSyntheticDefaultImports": true,
+    "module": "commonjs",
+    "moduleResolution": "Node",
+    "pretty": true,
+    "sourceMap": true,
+    // "skipLibCheck": true,
+    "removeComments": true,
+    "target": "es6",
+    "outDir": "./dist/src",
+    "baseUrl": "./src",
+    "types": ["node"],
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true
+  },
+
+  "include": ["src/**/*.ts", "abi/**/*.json", "abi/*.json"],
+  "exclude": ["node_modules", "dist", "delegation-contracts"]
+}
